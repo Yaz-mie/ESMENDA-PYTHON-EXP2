@@ -52,33 +52,3 @@ Xmean = X.mean()
 Xstd = X.std()
 Xnormalized = (X - Xmean) / Xstd
 Computes the mean and standard deviation of the array.
-
-Applies normalization formula:
-
-𝑋
-𝑛
-𝑜
-𝑟
-𝑚
-𝑎
-𝑙
-𝑖
-𝑧
-𝑒
-𝑑
-=
-𝑋
-−
-mean
-std
-X 
-normalized
-​
- = 
-std
-X−mean
-​
- 
-Ensures the data has mean = 0 and std = 1.
-
-
