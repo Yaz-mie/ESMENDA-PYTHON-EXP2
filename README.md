@@ -101,7 +101,8 @@ v1.0 – Created initial notebook with NumPy import and basic array operations
 v1.1 – Added element-wise addition, subtraction, multiplication, and division examples
 
 v1.2 – Introduced mathematical functions (square root, power, mean, standard deviation)
-  
+
+v1.3 – Added explanations and improved code comments for clarity
 
 
  
