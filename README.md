@@ -67,5 +67,24 @@ print(Xnormalized)
 - print, displays the normalized 5×5 array.
 
 **02 🔢 Integer Array Transformation**
+
+```python
+#Get the first positive integers from 1 - 100
+A = np.arange(1,101) 
+
+#Constructs a 10x10 array, then get the squares of each integer
+Aarray = A.reshape(10,10) ** 2 
+```
+- Creates numbers 1 to 100
+- Reshapes into a 10×10 matrix
+- Squares every element
+  
+```python
+# Find elements divisible by 3
+divisible = A[A % 3 == 0]
+```
+- Filters the array to extract values divisible by 3.
+
+
  
 
