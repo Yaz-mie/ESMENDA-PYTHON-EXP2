@@ -66,3 +66,6 @@ print(Xnormalized)
 - np.save, saves the normalized array to a file for future use.
 - print, displays the normalized 5×5 array.
 
+**02 🔢 Integer Array Transformation**
+ 
+
