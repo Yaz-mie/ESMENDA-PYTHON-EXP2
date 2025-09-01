@@ -30,3 +30,11 @@ The problems solved include:
 1. Install [Jupyter Notebook](https://jupyter.org/).  
 2. Open the file ESMENDA_EXP2.ipynb.
 3. Run each cell to see the outputs directly below.
+
+## 💡 Examples w/ Explanation
+
+**01 🎲 Random Array Normalization**
+
+python
+import numpy as np   #Import NumPy library
+
