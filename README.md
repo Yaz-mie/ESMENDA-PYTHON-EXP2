@@ -93,7 +93,14 @@ print(divisible)
 ```
 - np.save, this stores the divisible-by-3 results into a file
 - print, shows all integers between 1 and 100 that are divisible by 3.
+---
 
+# Version History
+v1.0 – Created initial notebook with NumPy import and basic array operations
+
+v1.1 – Added element-wise addition, subtraction, multiplication, and division examples
+
+v1.2 – Introduced mathematical functions (square root, power, mean, standard deviation)
   
 
 
