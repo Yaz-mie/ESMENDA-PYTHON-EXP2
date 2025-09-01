@@ -1,4 +1,4 @@
-# Programming Assignment 2 – NumPy Essentials
+# Programming Assignment 2 – NumPy 
 
 **Author:** ESMENDA, Francine Jasmine Guelle T. 
 
