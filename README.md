@@ -41,17 +41,28 @@ import numpy as np
 
 # Create random 5x5 ndarray
 X = np.random.rand(5, 5)
+```
+- import numpy as np, is needed for all numerical and array operations.
+- X = np.random.rand(5, 5), generates a 5×5 array with random values between 0 and 1.
+  
 
+```python
 # Normalize X
 Xmean = X.mean() 
 Xstd = X.std()
 Xnormalized = (X - Xmean) / Xstd
+```
+- Computes the mean and standard deviation of the array.
+- Applies normalization formula
+- Ensures the data has mean = 0 and std = 1
 
+```python
 # Save the result of the normalized array
 np.save('X_normalized.npy', Xnormalized)
 
 # Print output
 print(Xnormalized)
 ```
-- Needed for all numerical and array operations.
+- np.save, saves the normalized array to a file for future use.
+- print, displays the normalized 5×5 array.
 
