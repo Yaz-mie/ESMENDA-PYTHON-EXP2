@@ -35,6 +35,50 @@ The problems solved include:
 
 **01 🎲 Random Array Normalization**
 
-python
-import numpy as np   #Import NumPy library
+```python
+#Import NumPy library
+import numpy as np
+
+# Create random 5x5 ndarray
+X = np.random.rand(5, 5)
+
+# Normalize X
+Xmean = X.mean() 
+Xstd = X.std()
+Xnormalized = (X - Xmean) / Xstd
+
+# Normalize X
+Xmean = X.mean() 
+Xstd = X.std()
+Xnormalized = (X - Xmean) / Xstd
+Computes the mean and standard deviation of the array.
+
+Applies normalization formula:
+
+𝑋
+𝑛
+𝑜
+𝑟
+𝑚
+𝑎
+𝑙
+𝑖
+𝑧
+𝑒
+𝑑
+=
+𝑋
+−
+mean
+std
+X 
+normalized
+​
+ = 
+std
+X−mean
+​
+ 
+Ensures the data has mean = 0 and std = 1.
+
 
