@@ -53,5 +53,5 @@ np.save('X_normalized.npy', Xnormalized)
 # Print output
 print(Xnormalized)
 ```
-
+Needed for all numerical and array operations.
 
