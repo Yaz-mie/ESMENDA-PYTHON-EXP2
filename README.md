@@ -56,3 +56,7 @@ Computes the mean and standard deviation of the array.
 # Save the result of the normalized array
 np.save('X_normalized.npy', Xnormalized)
 
+# Print output
+print(Xnormalized)
+
+
