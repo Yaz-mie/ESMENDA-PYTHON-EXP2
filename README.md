@@ -39,7 +39,7 @@ The problems solved include:
 #Import NumPy library
 import numpy as np
 
-# Create random 5x5 ndarray
+#Create random 5x5 ndarray
 X = np.random.rand(5, 5)
 ```
 - import numpy as np, is needed for all numerical and array operations.
@@ -47,7 +47,7 @@ X = np.random.rand(5, 5)
   
 
 ```python
-# Normalize X
+#Normalize X
 Xmean = X.mean() 
 Xstd = X.std()
 Xnormalized = (X - Xmean) / Xstd
@@ -84,6 +84,17 @@ Aarray = A.reshape(10,10) ** 2
 divisible = A[A % 3 == 0]
 ```
 - Filters the array to extract values divisible by 3.
+  
+```python
+#Save to file
+np.save("div_by_3.npy", divisible)
+#Print output
+print(divisible)
+```
+- np.save, this stores the divisible-by-3 results into a file
+- print, shows all integers between 1 and 100 that are divisible by 3.
+
+  
 
 
  
