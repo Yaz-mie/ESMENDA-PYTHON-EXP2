@@ -47,7 +47,7 @@ X = np.random.rand(5, 5)
   
 
 ```python
-#Normalize X
+#Normalize the array
 Xmean = X.mean() 
 Xstd = X.std()
 Xnormalized = (X - Xmean) / Xstd
