@@ -1,6 +1,7 @@
 # Programming Assignment 2 – NumPy Essentials
 
 **Author:** ESMENDA, Francine Jasmine Guelle T. 
+
 **Course:** Advanced Computer Programming and Algorithms / ECE2112  
 
 ---
