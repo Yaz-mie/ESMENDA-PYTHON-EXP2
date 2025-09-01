@@ -52,5 +52,6 @@ np.save('X_normalized.npy', Xnormalized)
 
 # Print output
 print(Xnormalized)
+```
 
 
