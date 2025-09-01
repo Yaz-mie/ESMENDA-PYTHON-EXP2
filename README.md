@@ -47,12 +47,6 @@ Xmean = X.mean()
 Xstd = X.std()
 Xnormalized = (X - Xmean) / Xstd
 
-# Normalize X
-Xmean = X.mean() 
-Xstd = X.std()
-Xnormalized = (X - Xmean) / Xstd
-Computes the mean and standard deviation of the array.
-
 # Save the result of the normalized array
 np.save('X_normalized.npy', Xnormalized)
 
