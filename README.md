@@ -17,19 +17,6 @@ The problems solved include:
 
 ---
 
-##  Requirements  
-
-- Python 3 
-- Jupyter Notebook  
-- NumPy  
-
----
-
-##  How to Run  
-
-1. Install [Jupyter Notebook](https://jupyter.org/).  
-2. Open the file ESMENDA_EXP2.ipynb.
-3. Run each cell to see the outputs directly below.
 
 ## Examples w/ Explanation
 
