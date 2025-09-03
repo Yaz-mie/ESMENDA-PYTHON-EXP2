@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Description  
+## Description  
 
 This Jupyter Notebook demonstrates beginner applications of the **NumPy library** in Python.  
 It shows how to create arrays, normalize data, perform mathematical transformations, and filter values.  
@@ -17,7 +17,7 @@ The problems solved include:
 
 ---
 
-## ⚙️ Requirements  
+##  Requirements  
 
 - Python 3 
 - Jupyter Notebook  
@@ -25,15 +25,15 @@ The problems solved include:
 
 ---
 
-## ▶️ How to Run  
+##  How to Run  
 
 1. Install [Jupyter Notebook](https://jupyter.org/).  
 2. Open the file ESMENDA_EXP2.ipynb.
 3. Run each cell to see the outputs directly below.
 
-## 💡 Examples w/ Explanation
+## Examples w/ Explanation
 
-**01 🎲 Random Array Normalization**
+**01 Random Array Normalization**
 
 ```python
 #Import NumPy library
@@ -66,7 +66,7 @@ print(Xnormalized)
 - np.save, saves the normalized array to a file for future use.
 - print, displays the normalized 5×5 array.
 
-**02 🔢 Integer Array Transformation**
+**02 Integer Array Transformation**
 
 ```python
 #Get the first positive integers from 1 - 100
